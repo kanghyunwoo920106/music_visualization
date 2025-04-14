@@ -1,8 +1,6 @@
-# 음악 시각화 도구 (Music Visualization Tool)
+# 음악 시각화 도구
 
 Web Audio API와 Canvas를 활용한 음악 시각화 실험 도구입니다. 사용자가 업로드한 음악 파일(MP3, WAV 등)의 오디오 데이터를 분석하여 다양한 시각적 효과로 표현합니다.
-
-![프로젝트 스크린샷](screenshot.png)
 
 ## 주요 기능
 
@@ -96,30 +94,3 @@ music_visualization/
 2. 파일이 로드되면 재생 버튼을 눌러 음악과 시각화를 시작합니다.
 3. 시각화 타입과 색상 스킴을 원하는 대로 변경하며 다양한 시각화 효과를 경험합니다.
 4. 일시정지 및 다시 시작 버튼으로 재생을 제어할 수 있습니다.
-
-## 브라우저 호환성
-
-이 프로젝트는 Web Audio API와 Canvas API를 사용하므로 최신 버전의 웹 브라우저가 필요합니다:
-- Chrome (권장)
-- Firefox
-- Safari
-- Edge
-
-## 기여하기
-
-프로젝트 개선에 기여하고 싶으시다면:
-1. 이 저장소를 포크합니다.
-2. 새 브랜치를 만듭니다: `git checkout -b feature/amazing-feature`
-3. 변경사항을 커밋합니다: `git commit -m '새로운 기능 추가'`
-4. 브랜치를 푸시합니다: `git push origin feature/amazing-feature`
-5. Pull Request를 생성합니다.
-
-## 라이선스
-
-[MIT 라이선스](LICENSE) 하에 배포됩니다.
-
-## 감사의 말
-
-- Web Audio API와 Canvas API 문서 및 튜토리얼
-- Next.js 및 React 커뮤니티
-- Tailwind CSS 팀
